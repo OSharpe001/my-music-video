@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hope you enjoy...</h1>
-      <ReactPlayer 
+      <ReactPlayer className="player"
         url = {vidUrl}
         playing = {false}
         volume = {0.5}

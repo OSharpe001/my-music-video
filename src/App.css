@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+.player {
+  margin: 80px auto 10px auto;
+  border: blue 12px solid;
+  border-radius: 10px 30px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -33,6 +39,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(270deg);
   }
 }
